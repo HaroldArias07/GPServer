@@ -18,6 +18,8 @@ const server = net.createServer(socket => {
   });
 });
 
+const PORT = 9000
+
 server.listen({host: '0.0.0.0', port: PORT }, () => {
   console.log(`Server listening`);
 });
